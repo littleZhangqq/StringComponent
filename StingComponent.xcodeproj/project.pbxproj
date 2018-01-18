@@ -13,6 +13,9 @@
 		F0E1DB402010DCB7009A2161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E1DB3F2010DCB7009A2161 /* Assets.xcassets */; };
 		F0E1DB432010DCB7009A2161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E1DB412010DCB7009A2161 /* LaunchScreen.storyboard */; };
 		F0E1DB462010DCB7009A2161 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E1DB452010DCB7009A2161 /* main.m */; };
+		F0E1DB4F2010DD24009A2161 /* XDYStringComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E1DB4D2010DD24009A2161 /* XDYStringComponent.m */; };
+		F0E1DB522010E29E009A2161 /* t4_chexian_title_baoxian.png in Resources */ = {isa = PBXBuildFile; fileRef = F0E1DB502010E29D009A2161 /* t4_chexian_title_baoxian.png */; };
+		F0E1DB532010E29E009A2161 /* t4_share_icon_weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = F0E1DB512010E29D009A2161 /* t4_share_icon_weixin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		F0E1DB422010DCB7009A2161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0E1DB442010DCB7009A2161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0E1DB452010DCB7009A2161 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0E1DB4D2010DD24009A2161 /* XDYStringComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDYStringComponent.m; sourceTree = "<group>"; };
+		F0E1DB4E2010DD24009A2161 /* XDYStringComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDYStringComponent.h; sourceTree = "<group>"; };
+		F0E1DB502010E29D009A2161 /* t4_chexian_title_baoxian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t4_chexian_title_baoxian.png; sourceTree = "<group>"; };
+		F0E1DB512010E29D009A2161 /* t4_share_icon_weixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t4_share_icon_weixin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,9 @@
 		F0E1DB352010DCB7009A2161 /* StingComponent */ = {
 			isa = PBXGroup;
 			children = (
+				F0E1DB502010E29D009A2161 /* t4_chexian_title_baoxian.png */,
+				F0E1DB512010E29D009A2161 /* t4_share_icon_weixin.png */,
+				F0E1DB4C2010DD24009A2161 /* Component */,
 				F0E1DB362010DCB7009A2161 /* AppDelegate.h */,
 				F0E1DB372010DCB7009A2161 /* AppDelegate.m */,
 				F0E1DB392010DCB7009A2161 /* ViewController.h */,
@@ -69,6 +79,15 @@
 				F0E1DB452010DCB7009A2161 /* main.m */,
 			);
 			path = StingComponent;
+			sourceTree = "<group>";
+		};
+		F0E1DB4C2010DD24009A2161 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				F0E1DB4E2010DD24009A2161 /* XDYStringComponent.h */,
+				F0E1DB4D2010DD24009A2161 /* XDYStringComponent.m */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,8 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0E1DB432010DCB7009A2161 /* LaunchScreen.storyboard in Resources */,
+				F0E1DB522010E29E009A2161 /* t4_chexian_title_baoxian.png in Resources */,
 				F0E1DB402010DCB7009A2161 /* Assets.xcassets in Resources */,
 				F0E1DB3E2010DCB7009A2161 /* Main.storyboard in Resources */,
+				F0E1DB532010E29E009A2161 /* t4_share_icon_weixin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +165,7 @@
 			files = (
 				F0E1DB3B2010DCB7009A2161 /* ViewController.m in Sources */,
 				F0E1DB462010DCB7009A2161 /* main.m in Sources */,
+				F0E1DB4F2010DD24009A2161 /* XDYStringComponent.m in Sources */,
 				F0E1DB382010DCB7009A2161 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
